@@ -1,0 +1,30 @@
+.routes {
+    height: 30vh;
+    width:30vw;
+    display: flex;
+    flex: 2 2 auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(154, 5, 129, 0.896);
+    margin: 0 10px 50px;
+    overflow: hidden;
+  
+    &:hover {
+      cursor: pointer;
+  
+      & .route {
+        opacity: 1;
+      }
+    }
+  
+    .route {
+      opacity: 0.5;
+      h1 {
+        font-weight: bold;
+        margin: 0 10px 0;
+        font-size: 2em;
+        color: #3a0226;
+      }
+    }
+  }
+  

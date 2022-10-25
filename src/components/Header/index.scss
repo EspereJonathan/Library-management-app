@@ -1,0 +1,32 @@
+header {
+  background-color:rgb(255, 255, 255) ;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: 1px 1px 1px 1px #c0c0c0;
+
+  .logo {
+    height:100%;
+    width:20%;
+  }
+
+  nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 1vh;
+
+    .route {
+      display: block;
+      margin: 0 12px 0;
+      font-size: 1.2em;
+      color: #2e0148;
+      position: relative;
+      opacity: 0.9;
+    }
+  }
+} 
+  
